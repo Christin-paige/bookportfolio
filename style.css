@@ -10,8 +10,8 @@ body{
    height: 100vh;
    position: relative;
 }
-/**
-body ::before {
+
+body::before {
     content: "";
     position: absolute;
     top: 0;
@@ -24,7 +24,7 @@ body ::before {
     opacity: 0.2;
     z-index: -1;
 }
-    **/
+
 ul{
     list-style: none;
 }
