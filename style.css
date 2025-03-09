@@ -10,7 +10,7 @@ body{
    height: 100vh;
    position: relative;
 }
-/**
+
 body ::before {
     content: "";
     position: absolute;
@@ -24,7 +24,7 @@ body ::before {
     opacity: 0.2;
     z-index: -1;
 }
-    **/
+    
 ul{
     list-style: none;
 }
@@ -78,6 +78,10 @@ ul{
     background-color: #ddd;
     transform: rotateY(-15deg) translateZ(-8px);
     
+}
+
+.page ::before {
+    background-image: none; /* This will remove this background image. You can reuse the page class now for any more pages in your book. */
 }
 
 .page > li {
